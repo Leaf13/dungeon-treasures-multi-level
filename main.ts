@@ -147,23 +147,23 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.buttonPink, function (spr
             tiles.setWallAt(value, false)
         }
     } else {
-        for (let value of lj) {
-            tiles.setTileAt(value, sprites.dungeon.floorLight0)
-            tiles.setWallAt(value, false)
+        for (let value2 of lj) {
+            tiles.setTileAt(value2, sprites.dungeon.floorLight0)
+            tiles.setWallAt(value2, false)
         }
     }
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.buttonTeal, function (sprite, location) {
     tiles.setTileAt(location, sprites.dungeon.buttonTealDepressed)
     if (level == 0) {
-        for (let value of index) {
-            tiles.setTileAt(value, sprites.dungeon.floorLight0)
-            tiles.setWallAt(value, false)
+        for (let value3 of index) {
+            tiles.setTileAt(value3, sprites.dungeon.floorLight0)
+            tiles.setWallAt(value3, false)
         }
     } else {
-        for (let value of li) {
-            tiles.setTileAt(value, sprites.dungeon.floorLight0)
-            tiles.setWallAt(value, false)
+        for (let value4 of li) {
+            tiles.setTileAt(value4, sprites.dungeon.floorLight0)
+            tiles.setWallAt(value4, false)
         }
     }
 })
@@ -740,13 +740,13 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleInsignia, func
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.field1, function (sprite, location) {
     tiles.setTileAt(location, sprites.builtin.field0)
-    for (let value3 of _new) {
-        tiles.setTileAt(value3, sprites.dungeon.floorLight0)
-        tiles.setWallAt(value3, false)
+    for (let value32 of _new) {
+        tiles.setTileAt(value32, sprites.dungeon.floorLight0)
+        tiles.setWallAt(value32, false)
     }
-    for (let value4 of new2) {
-        tiles.setTileAt(value4, sprites.dungeon.floorLight0)
-        tiles.setWallAt(value4, false)
+    for (let value42 of new2) {
+        tiles.setTileAt(value42, sprites.dungeon.floorLight0)
+        tiles.setWallAt(value42, false)
     }
 })
 function MelodyPlay () {
@@ -769,18 +769,18 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sp
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.buttonOrange, function (sprite, location) {
     tiles.setTileAt(location, sprites.dungeon.buttonOrangeDepressed)
     if (level == 0) {
-        for (let value32 of o1) {
-            tiles.setTileAt(value32, sprites.dungeon.floorLight0)
-            tiles.setWallAt(value32, false)
+        for (let value322 of o1) {
+            tiles.setTileAt(value322, sprites.dungeon.floorLight0)
+            tiles.setWallAt(value322, false)
         }
     } else {
-        for (let value3 of _new) {
-            tiles.setTileAt(value3, sprites.dungeon.floorLight0)
-            tiles.setWallAt(value3, false)
+        for (let value33 of _new) {
+            tiles.setTileAt(value33, sprites.dungeon.floorLight0)
+            tiles.setWallAt(value33, false)
         }
-        for (let value4 of new2) {
-            tiles.setTileAt(value4, sprites.dungeon.floorLight0)
-            tiles.setWallAt(value4, false)
+        for (let value43 of new2) {
+            tiles.setTileAt(value43, sprites.dungeon.floorLight0)
+            tiles.setWallAt(value43, false)
         }
     }
 })
